@@ -1,0 +1,317 @@
+@media only screen and (min-width: 568px) {
+
+	body, html {
+		height: 100%;
+		margin: 0;
+		font-size: 16px;
+		font-family: "Lato", sans-serif;
+		font-weight: 400;
+		line-height: 1.8em;
+		color: #666;
+	}
+
+	.p {
+		text-align: justify;
+	}
+
+	/* image size used best with is 1920 x 1629 */
+
+	.pageone1, .pageone2, .pageone3, .pageone4, .pageone5 {
+		position: relative;
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		opacity: 0.70;
+		/* fixed = parallax ----- scroll = normal */
+		background-attachment: fixed;
+	}
+
+	.pageone1 {
+		background-image: url('../Pictures/brunch.jpg');
+		min-height: 100%;
+	}
+
+	.pageone2 {
+		background-image: url('../Pictures/page2.jpg');
+		min-height: 400px;
+	}
+
+	.pageone3 {
+		background-image: url('../Pictures/page1.jpg');
+		min-height: 400px;
+	}
+
+	.pageone4 {
+		background-image: url('..');
+		min-height: 400px;
+	}
+
+	.pageone5 {
+		background-image: url('..');
+		min-height: 400px;
+	}
+
+	.pagetwotitle, .pagetwo1, .pagetwo2, .pagetwo3, .pagetwo4, .pagetwo5, .pagetwo6 {
+		position: relative;
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		opacity: 0.70;
+		/* fixed = parallax ----- scroll = normal */
+		background-attachment: fixed;
+	}
+
+	.pagetwotitle {
+		background-image: url('../Pictures/menu.jpg');
+		min-height: 100%;
+	}
+
+	.pagetwo1 {
+		background-image: url('../Pictures/eggtoast.jpeg');
+		min-height: 400px;
+	}
+
+	.pagetwo2 {
+		background-image: url('../Pictures/fries.jpg');
+		min-height: 400px;
+	}
+
+	.pagetwo3 {
+		background-image: url('../Pictures/crepe.jpeg');
+		min-height: 400px;
+	}
+
+	.pagetwo4 {
+		background-image: url('../Pictures/benny.jpeg');
+		min-height: 400px;
+	}
+
+	.pagetwo5 {
+		background-image: url('../Pictures/brunch2.jpeg');
+		min-height: 400px;
+	}
+
+	.pagetwo6 {
+		background-image: url('../Pictures/sandwich.jpeg');
+		min-height: 400px;
+	}
+
+	.pagethreetitle, .pagethree1, .pagethree2, .pagethree3, .pagethree4, .pagethree5 {
+		position: relative;
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		opacity: 0.70;
+		/* fixed = parallax ----- scroll = normal */
+		background-attachment: fixed;
+	}
+
+	.pagethreetitle {
+		background-image: url('../Pictures/page3title.jpg');
+		min-height: 100%;
+	}
+
+	.pagethree1 {
+		background-image: url('../Pictures/smoothies.jpg');
+		min-height: 400px;
+	}
+
+	.pagethree2 {
+		background-image: url('../Pictures/coffee.jpg');
+		min-height: 400px;
+	}
+
+	.pagethree3 {
+		background-image: url('..');
+		min-height: 400px;
+	}
+
+	.pagethree4 {
+		background-image: url('..');
+		min-height: 400px;
+	}
+
+	.pagethree5 {
+		background-image: url('..');
+		min-height: 400px;
+	}
+
+	.pagefourtitle, .pagefour1, .pagefour2, .pagefour3, .pagefour4, .pagefour5 {
+		position: relative;
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		opacity: 0.70;
+		/* fixed = parallax ----- scroll = normal */
+		background-attachment: fixed;
+	}
+
+	.pagefourtitle {
+		background-image: url('../Pictures/takeout.jpeg');
+		min-height: 100%;
+	}
+
+	.pagefour1 {
+		background-image: url('../Pictures/eggsp4.jpeg');
+		min-height: 400px;
+	}
+
+	.pagefour2 {
+		background-image: url('../Pictures/breakybowl.jpeg');
+		min-height: 400px;
+	}
+
+	.pagefour3 {
+		background-image: url('../Pictures/sweet.jpeg');
+		min-height: 400px;
+	}
+
+	.pagefour4 {
+		background-image: url('..');
+		min-height: 400px;
+	}
+
+	.pagefour5 {
+		background-image: url('..');
+		min-height: 400px;
+	}
+
+	.lastpage, .lastpage1, .lastpage2, .lastpage3, .lastpage4, .lastpage5 {
+		position: relative;
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		opacity: 0.70;
+		/* fixed = parallax ----- scroll = normal */
+		background-attachment: fixed;
+	}
+
+	.lastpage {
+		background-image: url('../Pictures/lastpage.jpg');
+		min-height: 100%;
+	}
+
+	.lastpage1 {
+		background-image: url('../Pictures/eggsp4.jpeg');
+		min-height: 400px;
+	}
+
+	.lastpage2 {
+		background-image: url('../Pictures/breakybowl.jpeg');
+		min-height: 400px;
+	}
+
+	.lastpage3 {
+		background-image: url('../Pictures/sweet.jpeg');
+		min-height: 400px;
+	}
+
+	.section {
+		text-align: center;
+		padding: 50px 80px;
+	}
+
+	.section-light {
+		background-color: #CAC09C;
+		color: #666;
+	}
+
+	.section-dark {
+		background-color: #282e34;
+		color: #ddd;
+	}
+
+	.ptext {
+		position: absolute;
+		top: 50%;
+		width: 100%;
+		text-align: center;
+		color: #000;
+		font-size: 27px;
+		letter-spacing: 8px;
+		text-transform: uppercase;
+	}
+
+		.ptext .border {
+			background-color: #B6A988;
+			color: #000;
+			padding: 20px;
+		}
+
+			.ptext .border.trans {
+				background-color: transparent;
+			}
+
+	/* buttons */
+	.btn {
+		border: none;
+		background-color: inherit;
+		padding: 14px 28px;
+		font-size: 24px;
+		cursor: pointer;
+		display: inline-block;
+	}
+
+	a {
+		display: block;
+		width: 100%;
+		text-align: center;
+		text-decoration: none;
+		color: black;
+	}
+
+	.btn:hover {
+		background: #282e34;
+	}
+
+	.home {
+		color: #000;
+	}
+
+	.takeout {
+		color: #000;
+	}
+
+	.menu {
+		color: #000;
+	}
+
+	.drinks {
+		color: #000;
+	}
+
+	.contactus {
+		color: #000;
+	}
+
+
+	input[type=text], select, textarea {
+		width: 100%;
+		padding: 12px;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		box-sizing: border-box;
+		margin-top: 6px;
+		margin-bottom: 16px;
+		resize: vertical;
+	}
+
+	input[type=submit] {
+		background-color: #04AA6D;
+		color: white;
+		padding: 12px 20px;
+		border: none;
+		border-radius: 4px;
+		cursor: pointer;
+	}
+
+		input[type=submit]:hover {
+			background-color: #45a049;
+		}
+
+	.container {
+		border-radius: 5px;
+		background-color: #f2f2f2;
+		padding: 20px;
+	}
+}
